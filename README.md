@@ -17,7 +17,9 @@ Compile the Java files:
 javac *.java
 ```
 
-The program expects a dataset file called `SMSSpamCollection`, which is **not included here**. Add a properly sourced copy before running the classifier, and check the file path in `SpamClassifier.java`.
+The `SMSSpamCollection` dataset is included in this repository. It comes from the UCI Machine Learning Repository and contains labeled spam and non-spam text messages.
+
+The program reads the dataset to train the classifier and make predictions.
 
 ## About this project
 This was a class assignment. The code is a learning implementation, not a production spam filter. I have not included an accuracy benchmark.
